@@ -1,0 +1,23 @@
+{
+  "name": "1pas2/csv-records",
+  "description": "Read CSV rows as records with strict header and width validation.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "1Pas2"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "files": [
+      "src/library.php"
+    ]
+  },
+  "scripts": {
+    "test": "php tests/test.php",
+    "example": "php examples/basic.php"
+  }
+}
